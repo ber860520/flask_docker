@@ -5,7 +5,7 @@ def plus(a,b):
 
 @app.route("/")
 def hello():
-    res=plus(10,30)
+    res=plus(30,30)
     return "Hello world, Im doing a plus operation...:  "+str(res)
 
 if __name__ == "__main__":
